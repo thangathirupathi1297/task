@@ -1,0 +1,83 @@
+header,section{
+    display: block;
+    margin: 0%;
+    padding: 0%;
+
+}
+*{
+    box-sizing: border-box;
+   
+}
+.container-fluid{
+    width: 100%;
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.logo{
+    padding: 5px;
+    background: #ced4db59;
+    font-size: 25px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.create{
+    padding: 5px;
+    background-color: #ffff;
+    justify-content: end;
+    display: flex;
+    align-content: center;
+}
+.create-btn{
+    border: none;
+    background-color: #ffff;
+    color: blue;
+    cursor: pointer;
+}
+.create-btn:hover{
+    color: red;
+}
+.pub_list{
+    background-color: rgba(241, 215, 215, 0.418);
+    margin: 5px auto;
+}
+.pub_list_not{
+    background-color: rgba(85, 85, 85, 0.418);
+    margin: 5px auto;
+    padding: 10px;
+}
+.create-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px;
+    margin: 10px auto;
+}
+input[type=text]{
+border: none;
+
+}
+.lists{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+.createBox{
+    display: none;
+}
+
+#notfound{
+    display: none;
+}
+#found{
+    display: none;
+}
+
+

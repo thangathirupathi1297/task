@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./main.js"></script>
+</head>
+<body onload="loadEvent()">
+    <header class="container-fluid">
+        <div class="container logo">
+        Publishers list
+        </div>
+    </header>
+    <section>
+        <div  class="container create" >
+         <button onclick="createPublishers()" class="create-btn"><a>Create Publishers</a></button>
+        </div>
+    </section>
+    <section id="createbox" class="createBox">
+        <h1 class="container" id="method"></h1>
+                <div  class="create-div container">
+                    <input  id="name" placeholder="Enter Name" type="text" required>
+                    <input id="location" type="text" placeholder="Enter Location... ">
+                    <div id="eventBtn"></div>
+                    <button onclick="closeCreate()">
+                        &#x2715;
+                    </button>
+                </div>
+        
+    </section>
+    <section id="notfound">
+        <div class="container pub_list_not">
+    
+            Publishers Not Found
+
+        </div>
+    </section>
+
+    <section id="found">
+       <div class="container pub_list">Publishers </div>
+    </section>
+
+
+</body>
+</html>
